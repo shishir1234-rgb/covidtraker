@@ -1,0 +1,29 @@
+body{
+     background-color: rgb(174, 147, 147);
+}
+
+
+h1 , h2{
+     text-align: center;
+     size: 10px;
+    color: aliceblue;
+}
+
+ul>li{
+     list-style-type: none;
+}
+
+ul{
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+}
+
+.card{
+
+     flex-basis: 30%;
+     margin: 10px 0px;
+     background-color: aqua;
+     text-align: center;
+     box-shadow: 0px 0px 10px 3px lightgray;
+}
